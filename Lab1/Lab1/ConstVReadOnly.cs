@@ -8,11 +8,12 @@ namespace Lab1
 {
     class ConstVReadOnly
     {
-        public const double PI = 3.1;
+        public readonly double PI = 3.1;
+        public const int inchesToFeet = 12;
         public ConstVReadOnly()
         {
             
-        PI = 3.1415;
-    }
+        PI = 3.14;
+        }
     }
 }
