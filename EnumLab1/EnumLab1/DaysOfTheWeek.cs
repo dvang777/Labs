@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace EnumLab1
 {
-    public class DaysOfTheWeek
+    public enum DaysOfTheWeek
     {
-        enum Days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
+        Sunday,
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday
+    }
 
 
-        public void thisDay(string weather)
-        {
-            foreach (int today in Enum.GetValues(typeof(Days)))
-            {
-            Console.WriteLine(((Days)today).ToString() + "'s forcast is " + weather);
-            }
-        }
-        }
+
 
       
 }
