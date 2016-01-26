@@ -11,5 +11,11 @@ namespace EnumLab2
         enum Age { };
         enum Name { };
         enum Breed { };
+
+
+        public void dogCatalog()
+        {
+
+        }
     }
 }

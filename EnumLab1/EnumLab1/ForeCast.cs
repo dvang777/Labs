@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnumLab1
 {
-    public class ForeCast 
+    public class ForeCast
     {
         string condition;
         public enum Forecast { Sunny, Rainy, Cloudy, Snow, Windy, Clear, Foggy };
@@ -16,7 +16,6 @@ namespace EnumLab1
         {
             foreach(string condition in Enum.GetNames(typeof(Forecast)))
             {
-                Console.WriteLine(condition);
                 return (condition);
             }
             return condition;
